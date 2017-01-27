@@ -1,6 +1,11 @@
 $(document).ready(function() {
   let str = '';
 
+  $('#0').on('click', function(e) {
+    str += (e.target.innerHTML);
+    $('#display').html(str);
+  });
+
   $('#1').on('click', function(e) {
     str += (e.target.innerHTML);
     $('#display').html(str);
