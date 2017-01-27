@@ -1,0 +1,20 @@
+td {
+  border: 1px solid black;
+  padding: 9px;
+  background: lightgrey;
+}
+
+#display {
+  border: 1px solid black;
+  height: 30px;
+  width: 125px;
+  overflow-x: auto;
+}
+
+#equal {
+  background: lightcoral;
+}
+
+.operation {
+  background: lightcyan;
+}
